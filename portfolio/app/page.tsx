@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { TbBackground } from "react-icons/tb";
 
 export default function Home() {
   return (

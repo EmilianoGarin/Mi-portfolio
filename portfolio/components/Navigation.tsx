@@ -1,10 +1,8 @@
 "use client";
 import { NavLinks } from '@/constants';
-import { div } from 'framer-motion/client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useRef, useEffect, useState } from 'react';
-import { text } from 'stream/consumers';
 import Transition from './Transition';
 
 const Navigation: React.FC = () => {//componente de navegacion

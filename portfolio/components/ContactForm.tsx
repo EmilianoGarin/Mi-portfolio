@@ -1,6 +1,5 @@
 "use client";
 import { form } from 'framer-motion/client';
-import React from 'react';
 import emailjs from 'emailjs-com';
 import React, { useState } from 'react';
 

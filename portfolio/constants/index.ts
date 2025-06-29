@@ -71,8 +71,13 @@ export const SkillData = [
 
 export const Socials = [
   {
+    name: "Instagram",
+    src: "/instagram.svg",
+    link: "https://www.instagram.com/emiliano.garin333/",
+  },
+  {
     name: "Linkedin",
-    src: "/Linkedin_icon.svg",
+    src: "/Linkedin-logo.png",
     link: "https://www.linkedin.com/in/emiliano-garin-36a2b31ab/",
   },
   {
@@ -86,11 +91,12 @@ export const Projects = [
     title: "Alquivago",
     text: "Fui el encargado del backend de este proyecto, el cual es una pagina web de reservas de alojamientos y locales comerciales. Desarrollado con Python, Flask, MongoDB, React y Next.js.",
     src: "/Alquivago.png",
+    link: "https://alquivago-landing.vercel.app/"
 
   },
   {
     title: "Magic Bullet",
-    text: "Magic Bullet es un juego de disparos desarrollado con Godot Engine. Aun esta en desarrollo, pero en su logica y origen yo soy su creador. Esta escrito en GDScript.",
+    text: "Magic Bullet es un juego de disparos desarrollado con Godot Engine. Si bien es de mi autoria, mi rol es meramente logica y mecanica. Esta escrito en GDScript.",
     src: "/BalaMagica.png",
   },
   {
